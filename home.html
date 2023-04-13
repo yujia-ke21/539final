@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- connects to the stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- connect to a Google font -->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- connect to a Font Aweseom font -->
+
+    <!-- connect to a gif -->
+
+
+    <title>30 Things to do in Ann Arbor</title>
+</head>
+<body>
+    <a href = "#mainstuff" class = "skip" >Skip to Main Content</a>
+
+    <!-- gradient bg -->
+    <section id="up"></section>
+    <section id="down"></section>
+    <section id="left"></section>
+    <section id="right"></section>
+
+
+
+    <header>
+        <nav>
+            <ul class="menu">
+              <li class = "active"><a href="home.html">Home</a></li>
+              <li><a href="card.html">Discover</a></li>
+            </ul>
+        </nav>
+    
+      </header>
+
+    <main id = "mainstuff">
+    <div class="container">
+        <div class="object"><h1>30 things to do in Ann Arbor</h1></div>
+        <div class="logo">
+            <img src="assets/logo.svg" class="object" alt="30 things logo">
+        </div>
+        <img src="assets/books.png" onclick="playBookSound()"class="object" data-value="1" alt="3d books pile">
+        <img src="assets/cat.png" onclick="playCatSound()" class="object" data-value="2" alt="3d cat lying on floor">
+        <img src="assets/coffee.png" onclick="playCoffeeSound()"class="object" data-value="3" alt="3d pink coffee cup">
+        <!-- <img src="assets/fruit.png" class="object4" alt="3d pink strawberry">
+        <img src="assets/notebook.png" class="object5" alt="3d notebook and a pair of glasses">
+        <img src="assets/pancake.png" class="object6"  alt="3d pancake"> -->
+        <img src="assets/football.png" onclick="playBallSound()"class="object" data-value="4" alt="3d blue football"> 
+    </div>
+
+    <script src="js/30things.js"></script>
+</body>
+</html>

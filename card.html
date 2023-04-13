@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- connects to the stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>30 Cards</title>
+</head>
+<body>
+    <a href = "#mainstuff" class = "skip" >Skip to Main Content</a>
+    <header>
+        <nav>
+            <div class="toggle">
+                <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+            </div>
+            <ul class="menu">
+              <div class="logosmall">
+                    <a href="home.html"><img src="assets/logo.svg" alt="30 things logo"></a></div>
+              <li ><a href="home.html">Home</a></li>
+              <li class = "active"><a href="card.html">Discover</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <div class="intro">
+        <h1>Feeling lost in Ann Arbor?</h1>
+        <p>Just flip a card to unveil exciting things to do in the city!</p>
+    </div>
+    <div class="cardslider">
+    <p>Card layout</p>
+    <input type="range" id="slider" name="rangeInput" min="3" max="6" value="3" step="1" data-show-value="true" oninput="updateTextInput(this.value);">
+    <output name="amount" id="amount" for="rangeInput">3</output>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="front">
+            <img src="assets/iceskate.png">
+            </div>
+            <div class="back">
+                <h3>1.Yost Ice Arena</h3>
+                <p>Go ice skating at the Yost Ice Arena, home to the University of Michigan ice hockey team.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            <iframe src='https://my.spline.design/miniroomartcopy-43b689775e6c9a887035acafecb1280b/' frameborder='0' width='100%' height='100%'></iframe>
+            </div>
+            <div class="back">
+                <h3>2.Tiny Lion Cat Cafe</h3>
+                <p>Experience a cozy lounge filled with friendly cats at the Tiny Lions lounge and adoption Center (TLC) in Ann Arbor, where you can pet, play with, and even adopt these lovable felines while enjoying the café's amenities such as free Wi-Fi, cat-lovers store, and rental space for special occasions.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/farmer.png">
+            </div>
+            <div class="back">
+                <h3>3.Farmers Market</h3>
+                <p>Explore the Ann Arbor Farmers Market, a bustling marketplace with fresh produce, artisanal goods, and more.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/rocket.jpeg">
+                </div>
+                <div class="back">
+                    <h3>4.The Rocket</h3>
+                    <p>The Rocket is a fun candy store with a vast selection of bulk and wrapped candies, chocolates, and nostalgic treats like jumbo peanut butter cups, chocolate-covered cherries, and more.</p>
+                </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/recordplayer.gif">
+            </div>
+            <div class="back">
+                <h3>5.Encore Records Store</h3>
+                <p>Encore records store is a haven for music enthusiasts, offering a wide selection of records, tapes, CDs, DVDs, sheet music, books, and memorabilia.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/river.avif">
+            </div>
+            <div class="back">
+                <h3>6..Huron River</h3>
+                <p>Take a scenic walk through the Huron River and Gallup Park, a beautiful park with a river, canoeing, and fishing.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/natural.png">
+            </div>
+            <div class="back">
+                <h3>7.UM Museum of Natural History</h3>
+                <p>Visit the University of Michigan Museum of Natural History, where you can learn about dinosaurs, Michigan wildlife, and more.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/ball.png">
+            </div>
+            <div class="back">
+                <h3>8.Michigan Stadium</h3>
+                <p>Of course, we can't talk about Ann Arbor and the University of Michigan without mentioning football.“The Big House” stadium, the largest in the country, hosts over 100,000 passionate fans during rivalry games against Michigan State or Ohio State.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <img src="assets/ride.jpeg">
+            </div>
+            <div class="back">
+                <h3>9.Border-to-Border Trail</h3>
+                <p>Take a bike ride on the Border-to-Border Trail, a scenic trail that runs from Ypsilanti to Dexter.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            <iframe src='https://my.spline.design/kidsplaygroundphysicscopy-0e995008b6f27ec976bee8395b75eab9/' frameborder='0' width='100%' height='100%'></iframe>
+            </div>
+            <div class="back">
+                <h3>10.BIG Game Center</h3>
+                <p>Big Game Center is a wonderland of entertainment with a thrilling assortment of attractions such as arcade games, billiards, bumper cars, and an indoor playground that are sure to keep visitors of all ages captivated and endlessly amused.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="front">
+                <iframe src='https://my.spline.design/purple3diconscopy-99f9c8929f24bd8ff0f3bc97b35100f9/' frameborder='0' width='100%' height='100%'></iframe>
+            </div>
+            <div class="back">
+                <h3>11.Michigan Theater</h3>
+                <p>Catch a concert or show at the Michigan Theater, a historic venue that hosts a variety of performances throughout the year.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="front">
+                <img src="assets/kerrytown.png">
+            </div>
+            <div class="back">
+                <h3>12.Kerrytown</h3>
+                <p>Kerrytown is a historic district in Ann Arbor known for its locally owned businesses that offer online shopping, curbside pick-up, and in-store options to make shopping safe and easy, making it a retail destination in the area.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="front">
+                <img src="assets/hands.jpeg">
+            </div>
+            <div class="back">
+                <h3>13.Hands-On Museum</h3>
+                <p>Visit the Ann Arbor Hands-On Museum, a family-friendly museum with interactive exhibits on science, technology, and more.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>14.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+                <iframe src='https://my.spline.design/cabinwoodscopy-cbd5cac31e12000b5fb17e0308be489a/' frameborder='0' width='100%' height='100%'></iframe>
+                </div>
+                <div class="back">
+                    <h3>15.Nichols Arboretum</h3>
+                    <p>Take a stroll through the Nichols Arboretum, a beautiful park with trails, gardens, and a stunning peony garden.</p>
+                </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>16.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>17.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>18.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>19.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            <iframe src="https://giphy.com/embed/YOehqTZWso7OZfdmCi" width="100%" height="100%" frameBorder="0" class="giphy-embed"></iframe>
+            </div>
+            <div class="back">
+                <h3>20.UM Museum of Art</h3>
+                <p>The University of Michigan Museum of Art is a renowned art museum located in Ann Arbor, Michigan, featuring a vast collection of over 21,000 artworks spanning a wide range of time periods and cultures.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>21.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>22.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>23.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+        </div>
+        <div class="back">
+            <h3>24.Tiny Lion Cat Cafe</h3>
+            <p></p>
+        </div></div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>25.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>26.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>27.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+            </div>
+            <div class="back">
+                <h3>28.Tiny Lion Cat Cafe</h3>
+                <p></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="front">
+        </div>
+        <div class="back">
+            <h3>29.Tiny Lion Cat Cafe</h3>
+            <p></p>
+        </div>
+        </div>
+        <div class="card">
+            <div class="front">
+        </div>
+        <div class="back">
+            <h3>30.Tiny Lion Cat Cafe</h3>
+            <p></p>
+        </div>
+        </div>
+      </div>
+      
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="js/30things.js"></script>
+</body>
+</html>
