@@ -159,17 +159,6 @@ nav .active a:last-child {
   }
   
   
-
-.logosmall{
-    flex:1;
-}
-
-.logosmall img{
-    width:80px;
-    margin-left: 60px;
-    justify-content: start;
-}
-
 .menu{
     display:flex;
     justify-content: end;
@@ -433,6 +422,18 @@ nav .active a:last-child {
     height:100%;
     object-fit: contain;
 }
+    
+    
+.logosmall{
+    flex:1;
+}
+
+.logosmall img{
+    width:80px;
+    margin-left: 60px;
+    justify-content: start;
+}
+
 
 /* nav bar*/
 nav{
