@@ -165,7 +165,6 @@ nav .active a:last-child {
     justify-content: end;
     align-items:center;
     list-style: none;
-    padding-top: 20px;
     
 }
 
@@ -293,29 +292,8 @@ nav .active a:last-child {
   }
   
 
+/* card layout */
 
-/*card*/
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    margin: 10px 30px;
-}
-
-.card{
-    border: 1px solid red;
-    border-radius: 16px;
-    background-color: rgb(216, 190, 137);
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;   
-    align-items: center;
-    font-size: 50px;
-    width:100%;
-    height:30vh;
-    transform-style:preserve-3d;
-    transition: 0.5s ease;
-}
 
 /* slider */
 .cardslider{
@@ -334,8 +312,31 @@ nav .active a:last-child {
     letter-spacing: 0.2em;
 }
 
-/* card */
 
+/*card*/
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 10px 30px;
+}
+
+.card{
+    border: 1px solid #D92063;
+    border-radius: 16px;
+    background-color: #D92063;
+    /* display: grid;
+    grid-template-areas: "front" "back";
+    grid-template-rows: 1fr 1fr; */
+    /* justify-content: center;   
+    align-items: center; */
+    font-size: 50px;
+    position: relative;
+    width:100%;
+    height:30vh;
+    transform-style:preserve-3d;
+    transition: 0.5s ease;
+}
 
 /* card inner content: front*/
 .front iframe{
@@ -350,38 +351,44 @@ nav .active a:last-child {
     overflow:hidden;
     width:100%;
     height:auto;
+    object-fit:cover;
 }
 
 .front{
-    width:auto;
+    /* width:auto; */
     height:100%;
-    /* display:block; */
+    width:100%;
+    position: absolute;
     display: flex;
     align-items: stretch;
     margin: 0 auto;
     border-radius: 16px;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     background:#efefef;
     padding:5px;
+    /* grid-area:front; */
 }
 
 /* card inner content: back*/
 .card .back{
-    width:100%;
     height:100%;
+    width:100%;
+    position:absolute;
     overflow: scroll;
-    display:flex;
-    flex-wrap:wrap;
+    /* display:grid;
+    grid-template-areas: "header" "content";
+    grid-template-rows: auto 1fr; */
     margin: 0 auto;
     border-radius: 16px;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     background:#fff6de;
     color:rgb(53, 53, 53);
     transform: rotateY(180deg);
     box-sizing: border-box;
     
 }
-
 
 .card:active, .card:focus{
     transform: rotateY(180deg);
@@ -397,6 +404,7 @@ nav .active a:last-child {
     background-color: #D92063;
     margin: 0;
     color:white;
+    grid-area:header;
 }
 
 .card .back p{
@@ -405,6 +413,7 @@ nav .active a:last-child {
     line-height: 150%;
     margin: 0;
     padding: 10px;
+    grid-area:content;
 }
 
 
