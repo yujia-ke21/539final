@@ -316,11 +316,12 @@ nav .active a:last-child {
     border-radius: 16px;
     background-color: rgb(216, 190, 137);
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;   
     align-items: center;
     font-size: 50px;
     width:100%;
-    height:auto;
+    height:30vh;
     transform-style:preserve-3d;
     transition: 0.5s ease;
 }
