@@ -563,10 +563,10 @@ nav{
 /* cat png */
 .object[data-value="2"] {
     transform-origin: center center;
-    width: 350px;
-    left:260px;
+    width: 250px;
+    left:160px;
     top:200px;
-    rotate: 160deg;
+    rotate: -10deg;
     z-index: 3;
     filter: contrast(120%);
     position: absolute;
@@ -577,7 +577,7 @@ nav{
 .object[data-value="3"] {
     transform-origin: center center;
     width: 280px;
-    left:1500px;
+    left:1100px;
     top:220px;
     z-index: 1;
     filter: contrast(110%);
