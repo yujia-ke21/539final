@@ -34,22 +34,22 @@ container.onmousemove = function(e){
 
 // play audio when image onclick//
 function playCatSound() {
-    var audio = new Audio('../assets/catMeow.mp3');
+    var audio = new Audio('./assets/catMeow.mp3');
     audio.play();
   }
 
 function playBookSound() {
-    var audio = new Audio('../assets/book-pageturn-sound.mp3');
+    var audio = new Audio('./assets/book-pageturn-sound.mp3');
     audio.play();
   }
 
 function playCoffeeSound() {
-    var audio = new Audio('../assets/coffee-sound.mp3');
+    var audio = new Audio('./assets/coffee-sound.mp3');
     audio.play();
   }
 
 function playBallSound() {
-    var audio = new Audio('../assets/football-sound.mp3');
+    var audio = new Audio('./assets/football-sound.mp3');
     audio.play();
   }
   
