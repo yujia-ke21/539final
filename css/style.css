@@ -584,7 +584,7 @@ nav{
     width: 350px;
     left:260px;
     top:200px;
-    rotate: 160deg;
+    rotate: 20deg;
     z-index: 3;
     filter: contrast(120%);
     position: absolute;
